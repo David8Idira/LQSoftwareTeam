@@ -1,0 +1,79 @@
+{
+  "agents": {
+    "master": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Master",
+      "color": "indigo",
+      "model": "gemini-2.5-flash",
+      "role": "coordinator"
+    },
+    "analyst": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Analyst",
+      "color": "cyan",
+      "model": "gemini-2.5-flash",
+      "role": "requirements-analysis"
+    },
+    "designer": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Designer",
+      "color": "purple",
+      "model": "gemini-2.5-flash",
+      "role": "architecture-design"
+    },
+    "coder": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Coder",
+      "color": "green",
+      "model": "gemini-2.5-flash",
+      "role": "implementation"
+    },
+    "tester": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Tester",
+      "color": "amber",
+      "model": "gemini-2.5-flash",
+      "role": "testing-qa"
+    },
+    "packager": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Packager",
+      "color": "red",
+      "model": "gemini-2.5-flash",
+      "role": "packaging-release"
+    },
+    "researcher": {
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "label": "Researcher",
+      "color": "blue",
+      "model": "gemini-2.5-flash",
+      "role": "research-optimization"
+    }
+  },
+  "master": "master",
+  "maxMentionDepth": 5,
+  "sessionPrefix": "sw-team",
+  "timeout": 180000,
+  "github": {
+    "account": "David8Idira",
+    "targetAccount": "liq_idira",
+    "email": "liq_idira@126.com"
+  },
+  "workflow": {
+    "analysis": ["analyst"],
+    "design": ["designer"],
+    "implement": ["coder"],
+    "test": ["tester"],
+    "package": ["packager"],
+    "release": ["packager"],
+    "research": ["researcher"]
+  },
+  "schedule": {
+    "learningWindow": {
+      "start": "00:30",
+      "end": "06:00",
+      "timezone": "Asia/Shanghai"
+    },
+    "taskPriority": ["urgent", "normal", "low"]
+  }
+}
