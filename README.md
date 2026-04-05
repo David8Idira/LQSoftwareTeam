@@ -2,6 +2,22 @@
 
 基于 OpenClaw + OpenCode + OpenSwarm 的多智能体协作系统
 
+## 📋 头脑风暴
+
+### LRuoYi-OA项目 → AI-OA项目
+
+软件实施团队已完成LRuoYi-OA项目的头脑风暴：
+
+| 角色 | 职责 | 观点 |
+|------|------|------|
+| Master | 项目经理汇总 | Sprint划分(4个)、交付清单、风险缓解 |
+| Analyst | 市场分析 | 优先F2/F4快速验证价值 |
+| Designer | 架构设计 | 微服务按领域划分，统一AI网关 |
+| Coder | 开发实现 | P0优先级F1/F2/F4 |
+| Tester | 测试策略 | AI测试+自动化流水线 |
+
+头脑风暴报告：`docs/AI-OA_头脑风暴报告.md`
+
 ## 🎯 团队组成
 
 | Agent | 角色 | 职责 |
