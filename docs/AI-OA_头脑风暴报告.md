@@ -1,6 +1,6 @@
-# LRuoYi-OA 项目头脑风暴
+# AI-OA 项目头脑风暴
 
-> 项目：LRuoYi-OA 智能化OA系统
+> 项目：AI-OA 智能化OA系统
 > 日期：2026-04-05
 > 参与：Master（项目经理）、Analyst（分析师）、Designer（设计师）、Coder（编码）、Tester（测试）
 
